@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sadman Sakib</title>
+  <meta name="description" content="Sadman Sakib: researcher working at the intersection of HCI, human-centered design, computer vision and NLP/LLMs. Applying to PhD programs for Fall 2027.">
+  <meta property="og:title" content="Sadman Sakib">
+  <meta property="og:description" content="HCI · Human-Centered AI · Computer Vision · NLP/LLMs">
+  <meta property="og:image" content="assets/profile.jpg">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%23245a8d'/><text x='16' y='22' font-family='Georgia,serif' font-size='17' fill='white' text-anchor='middle'>SS</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script>
+    try { var t = localStorage.getItem('theme'); if (t) document.documentElement.setAttribute('data-theme', t); } catch (e) {}
+  </script>
+</head>
+<body>
+
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="#about">Sadman Sakib</a>
+    <nav class="nav" aria-label="Sections">
+      <a href="#about">About</a>
+      <a href="#publications">Publications</a>
+      <a href="#datasets">Datasets</a>
+      <a href="#research">Research</a>
+      <a href="#experience">Experience</a>
+      <a href="#programming">Programming</a>
+      <a href="#education">Education</a>
+      <a href="#courses">Courses</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+      <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M12 3a9 9 0 1 0 9 9 7 7 0 0 1-9-9z"/></svg>
+    </button>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <!-- ============ ABOUT ============ -->
+  <section id="about" class="hero">
+    <div class="hero-text">
+      <h1>Sadman Sakib</h1>
+      <p class="tagline">M.Sc. student in CSE, BRAC University &nbsp;·&nbsp; Former Software Engineer, Kona Software Lab</p>
+
+      <p class="status"><span class="dot"></span> Applying to PhD programs for <strong>Fall&nbsp;2027</strong></p>
+
+      <p class="lede">AI can now see, read, and speak. The question that drives me is: <em>who is it actually built for?</em></p>
+      <p>
+        My research interest lies at the intersection of
+        <strong>Human-Computer Interaction</strong>, <strong>human-centered design</strong>,
+        <strong>computer vision</strong>, and <strong>NLP / large language models</strong>.
+        I'm most interested in how perception and generative models can be designed to support people
+        that mainstream technology often leaves out.
+      </p>
+      <p>
+        My undergraduate research at <a href="https://www.kuet.ac.bd/">KUET</a> focused on assistive and health
+        technology. I built a smart-spectacle system that helps visually impaired people navigate and read,
+        a unified vision platform for recognizing objects, currency, and faces, and a smartphone app that
+        estimates blood glucose and hemoglobin non-invasively from fingertip video. All three were published at IEEE conferences.
+        At BRAC University I'm now working on <em>generative AI for accessible content creation</em> and
+        <em>long-video understanding</em>.
+      </p>
+      <p>
+        I spent two years as a software engineer in fintech, working on the backend of
+        <strong>Nagad</strong>, one of Bangladesh's largest mobile financial services. That experience
+        taught me how much system design decisions affect real users at scale, and I bring that view to my research.
+      </p>
+      <p>
+        I'm also a competitive programmer: a <strong>Codeforces Specialist</strong> (max rating 1442) with
+        <strong>1100+ problems solved</strong> across online judges. Contest programming built the algorithmic
+        thinking and problem-solving habits I rely on in both research and engineering.
+        <a href="#programming">More below&nbsp;↓</a>
+      </p>
+
+      <div class="cta">
+        <a class="cta-btn cta-primary" href="assets/Sadman_Sakib_CV.pdf">View CV</a>
+        <a class="cta-btn" href="#contact">Get in touch</a>
+      </div>
+    </div>
+
+    <figure class="hero-photo">
+      <img src="assets/profile.jpg" alt="Portrait of Sadman Sakib" width="225" height="273">
+    </figure>
+  </section>
+
+  <section class="interests" aria-label="Research interests">
+    <h2 class="section-title">Research Interests</h2>
+    <ul class="keywords">
+      <li>Human-Computer Interaction</li>
+      <li>Accessibility</li>
+      <li>Human-Centered AI &amp; Design</li>
+      <li>Computer Vision</li>
+      <li>Long Video Understanding</li>
+      <li>NLP &amp; Large Language Models</li>
+      <li>Multimodal AI</li>
+    </ul>
+  </section>
+
+  <!-- ============ PUBLICATIONS ============ -->
+  <section id="publications">
+    <h2 class="section-title">Publications</h2>
+    <p class="section-note">Peer-reviewed conference papers (IEEE).</p>
+
+    <article class="pub">
+      <div class="pub-venue">ICECE<br><span>2024</span></div>
+      <div class="pub-body">
+        <h3>An Assistive Device for the Visually Impaired for Enhanced Navigation and Reading</h3>
+        <!-- <p class="authors"><strong>Sadman Sakib</strong>, Co-author, …</p> -->
+        <p class="venue">13th International Conference on Electrical and Computer Engineering (ICECE), 2024</p>
+        <p>A portable embedded smart-spectacle system that gives visually impaired people mobility and reading support. It handles real-time
+          obstacle avoidance, detects falls and alerts caregivers automatically, and reads text aloud through an OCR pipeline with image preprocessing and text-to-speech.</p>
+        <div class="tags"><span>Accessibility</span><span>Assistive Tech</span><span>Computer Vision</span><span>OCR</span></div>
+        <a class="pub-link" href="https://ieeexplore.ieee.org/abstract/document/11024586">IEEE Xplore ↗</a>
+      </div>
+    </article>
+
+    <article class="pub">
+      <div class="pub-venue">ICCIT<br><span>2024</span></div>
+      <div class="pub-body">
+        <h3>Automated Object Identification for the Visually Impaired</h3>
+        <!-- <p class="authors"><strong>Sadman Sakib</strong>, Co-author, …</p> -->
+        <p class="venue">27th International Conference on Computer and Information Technology (ICCIT), 2024</p>
+        <p>A single automated assistive platform that combines object detection, currency recognition, and face recognition.
+          It uses YOLOv5 for detection and ResNet-50 for classification, trained on curated datasets, with separate modules that
+          support navigation, financial transactions, and social interaction.</p>
+        <div class="tags"><span>Accessibility</span><span>Object Detection</span><span>YOLOv5</span><span>ResNet-50</span></div>
+        <a class="pub-link" href="https://ieeexplore.ieee.org/abstract/document/11022362">IEEE Xplore ↗</a>
+      </div>
+    </article>
+
+    <article class="pub">
+      <div class="pub-venue">ICCIT<br><span>2023</span></div>
+      <div class="pub-body">
+        <h3>Mobile Application to Collect Data and Measure Blood Component Level in a Non-Invasive Way</h3>
+        <!-- <p class="authors"><strong>Sadman Sakib</strong>, Co-author, …</p> -->
+        <p class="venue">26th International Conference on Computer and Information Technology (ICCIT), 2023</p>
+        <p>A smartphone app that estimates blood glucose and hemoglobin non-invasively from photoplethysmography (PPG)
+          signals. It captures fingertip video in real time and uses a deep learning model to extract and post-process the PPG signals.</p>
+        <div class="tags"><span>Mobile Health</span><span>PPG</span><span>Deep Learning</span><span>Human-Centered Design</span></div>
+        <a class="pub-link" href="https://ieeexplore.ieee.org/abstract/document/10441186">IEEE Xplore ↗</a>
+      </div>
+    </article>
+  </section>
+
+  <!-- ============ DATASETS ============ -->
+  <section id="datasets">
+    <h2 class="section-title">Dataset Contributions</h2>
+    <div class="cards">
+      <a class="card card-link" href="https://www.kaggle.com/datasets/humairaanzumneha/final-dataset">
+        <span class="card-kicker">Kaggle · Computer Vision</span>
+        <h3>Object Recognition Dataset</h3>
+        <p>A curated image dataset for object recognition, publicly released on Kaggle.</p>
+        <span class="stack">View on Kaggle ↗</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- ============ CURRENT RESEARCH ============ -->
+  <section id="research">
+    <h2 class="section-title">Current Research</h2>
+    <div class="cards">
+      <div class="card">
+        <span class="card-kicker">HCI · Generative AI</span>
+        <h3>Generative AI for Accessible Content Creation</h3>
+        <p>Studying how generative AI tools can help marginalized communities create content and represent themselves on their own terms.</p>
+      </div>
+      <div class="card">
+        <span class="card-kicker">Computer Vision</span>
+        <h3>Long Video Understanding</h3>
+        <p>Building models that reason over long-form video, beyond short clips.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ EXPERIENCE ============ -->
+  <section id="experience">
+    <h2 class="section-title">Industry Experience</h2>
+    <div class="timeline-item">
+      <div class="tl-head">
+        <h3>Graduate Engineer, <span class="org">Kona Software Lab Ltd.</span></h3>
+        <span class="date">Aug 2024 – Aug 2026</span>
+      </div>
+      <p class="muted">Fintech · Backend engineering for national-scale payment systems</p>
+
+      <div class="subproject">
+        <h4>Nagad: Mobile Financial Service</h4>
+        <p>Worked on the backend of one of Bangladesh's leading mobile financial services, which runs on a microservice architecture.
+          Built customer-facing and admin-portal features including transaction processing, bulk disbursement,
+          Mastercard Payment Gateway Services (MPGS), NPSB, and Bangla QR integrations. Worked closely with the client team and
+          cross-functional stakeholders on requirements analysis, system design, and performance testing.</p>
+        <div class="tags"><span>Java</span><span>Spring Boot</span><span>Oracle</span><span>Redis</span><span>Kafka</span><span>RabbitMQ</span></div>
+      </div>
+
+      <div class="subproject">
+        <h4>Kona Subscription Hub</h4>
+        <p>Helped design and build a subscription management platform for subscription lifecycles, service activation
+          and deactivation, service-provider onboarding, automated reminders, and recurring-billing workflows.</p>
+        <div class="tags"><span>Java</span><span>Spring Boot</span><span>PostgreSQL</span><span>Redis</span><span>Kafka</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ COMPETITIVE PROGRAMMING ============ -->
+  <section id="programming">
+    <h2 class="section-title">Problem Solving &amp; Competitive Programming</h2>
+    <div class="cards">
+      <a class="card card-link" href="https://codeforces.com/profile/sadman15019">
+        <span class="card-kicker">Codeforces</span>
+        <p class="stat">1442</p>
+        <h3>Specialist</h3>
+        <p>Maximum rating on Codeforces, handle <strong>sadman15019</strong>.</p>
+        <span class="stack">View profile ↗</span>
+      </a>
+      <div class="card">
+        <span class="card-kicker">Online Judges</span>
+        <p class="stat">1100+</p>
+        <h3>Problems Solved</h3>
+        <p>Algorithmic problems solved across six online judges.</p>
+        <ul class="judges">
+          <li><a href="https://codeforces.com/profile/sadman15019">Codeforces</a></li>
+          <li><a href="https://vjudge.net/user/sadman15019">VJudge</a></li>
+          <li><a href="https://atcoder.jp/users/sadman15019">AtCoder</a></li>
+          <li><a href="https://www.codechef.com/users/sadman15019">CodeChef</a></li>
+          <li><a href="https://leetcode.com/u/sadman15019/">LeetCode</a></li>
+          <li><a href="https://lightoj.com/user/sadman15019">LightOJ</a></li>
+        </ul>
+      </div>
+      <div class="card">
+        <span class="card-kicker">SGIPC · KUET · 2022–2023</span>
+        <p class="stat stat-text">Workshop Manager</p>
+        <h3>Special Group Interested in Programming Contest</h3>
+        <p>Helped run programming workshops for the university's contest programming club.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ EDUCATION ============ -->
+  <section id="education">
+    <h2 class="section-title">Education</h2>
+    <div class="timeline-item">
+      <div class="tl-head">
+        <h3>M.Sc. in Computer Science and Engineering</h3>
+        <span class="date">2026 – Present</span>
+      </div>
+      <p class="org">BRAC University, Dhaka</p>
+      <p class="muted">CGPA: <strong>4.00 / 4.00</strong> (12 credits completed)</p>
+    </div>
+    <div class="timeline-item">
+      <div class="tl-head">
+        <h3>B.Sc. in Computer Science and Engineering</h3>
+        <span class="date">2019 – 2024</span>
+      </div>
+      <p class="org">Khulna University of Engineering &amp; Technology (KUET)</p>
+      <p class="muted">CGPA: <strong>3.73 / 4.00</strong> · Dean's Award (2nd, 3rd &amp; 4th year)</p>
+    </div>
+  </section>
+
+  <!-- ============ COURSES ============
+       To show a grade, add: <span class="grade">A+</span> inside the <li>. -->
+  <section id="courses">
+    <h2 class="section-title">Major Coursework</h2>
+    <div class="course-grid course-grid-2">
+      <div class="course-group">
+        <h3>M.Sc. · BRAC University</h3>
+        <ul>
+          <li>Advanced Natural Language Processing</li>
+          <li>Deep Learning for Computer Vision</li>
+          <li>Neural Networks and Fuzzy Systems</li>
+          <li>Fairness, Ethics and Explainability in AI</li>
+        </ul>
+      </div>
+      <div class="course-group">
+        <h3>B.Sc. · KUET</h3>
+        <ul>
+          <li>Artificial Intelligence</li>
+          <li>Natural Language Processing</li>
+          <li>Image Processing</li>
+          <li>Data Mining</li>
+          <li>Applied Statistics</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROJECTS ============ -->
+  <section id="projects">
+    <h2 class="section-title">Academic Projects</h2>
+    <div class="cards">
+      <a class="card card-link" href="https://github.com/sadman15019/CSE-3200-final">
+        <span class="card-kicker">Android · Deep Learning</span>
+        <h3>Glucoshema</h3>
+        <p>Android app for deep-learning-based, non-invasive blood glucose and hemoglobin measurement.</p>
+        <span class="stack">Kotlin · Python · Firebase</span>
+      </a>
+      <a class="card card-link" href="https://github.com/Bokhtiar-Adil/Vikings-chess-Hnefatafl">
+        <span class="card-kicker">Game AI</span>
+        <h3>Vikings Chess (Hnefatafl)</h3>
+        <p>Two-player board game with an AI opponent that uses minimax with alpha-beta pruning.</p>
+        <span class="stack">Python · Pygame</span>
+      </a>
+      <a class="card card-link" href="https://github.com/sadman15019/Online-Quiz-Management">
+        <span class="card-kicker">Desktop App</span>
+        <h3>Online Quiz Management</h3>
+        <p>Desktop app where students take MCQ and written exams and teachers set questions and grade.</p>
+        <span class="stack">Java Swing · MySQL</span>
+      </a>
+      <a class="card card-link" href="https://github.com/sadman15019/cse-3100-web-project">
+        <span class="card-kicker">Web</span>
+        <h3>Sweet Home</h3>
+        <p>E-commerce site for household furniture with cookie-based recommendations and an admin panel.</p>
+        <span class="stack">HTML · CSS · JavaScript · PHP</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- ============ SKILLS / AWARDS ============ -->
+  <section id="skills" class="two-col">
+    <div>
+      <h2 class="section-title">Technical Skills</h2>
+      <dl class="skills">
+        <dt>Languages</dt><dd>Python, C, C++, Java</dd>
+        <dt>ML &amp; Vision</dt><dd>PyTorch, OpenCV, NumPy, Pandas</dd>
+        <dt>Backend</dt><dd>Spring Boot, Kafka, RabbitMQ</dd>
+        <dt>Databases</dt><dd>PostgreSQL, MySQL, Oracle, Redis</dd>
+        <dt>Tools</dt><dd>Git, LaTeX, Jira, Confluence</dd>
+      </dl>
+    </div>
+    <div>
+      <h2 class="section-title">Honors &amp; Activities</h2>
+      <ul class="plain">
+        <li><strong>Dean's Award</strong> for excellent academic performance, KUET: 2nd, 3rd &amp; 4th year</li>
+        <li><strong>Codeforces Specialist</strong>: max rating 1442 (<a href="https://codeforces.com/profile/sadman15019">sadman15019</a>)</li>
+        <li><strong>Competitive programming</strong>: 1100+ problems solved and SGIPC Workshop Manager (<a href="#programming">details</a>)</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section id="contact">
+    <h2 class="section-title">Contact</h2>
+    <div class="contact-grid">
+      <a class="contact-card" href="mailto:sadmansakib14563@gmail.com">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 4.2-8 5-8-5V6l8 5 8-5z"/></svg>
+        <span><strong>Email</strong></span>
+      </a>
+      <a class="contact-card" href="https://www.linkedin.com/in/sadman-sakib-017b2a1b1/">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M19 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2zM8.3 18.3H5.7V9.7h2.6zM7 8.6a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm11.3 9.7h-2.6v-4.2c0-1 0-2.3-1.4-2.3s-1.6 1.1-1.6 2.2v4.3h-2.6V9.7h2.5v1.2c.4-.7 1.2-1.4 2.5-1.4 2.7 0 3.2 1.8 3.2 4.1z"/></svg>
+        <span><strong>LinkedIn</strong></span>
+      </a>
+      <a class="contact-card" href="https://scholar.google.com/citations?user=g3kw6eUAAAAJ&amp;hl=en">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 3 1 9l11 6 9-4.9V17h2V9zM5 13.2v4L12 21l7-3.8v-4L12 17z"/></svg>
+        <span><strong>Google Scholar</strong></span>
+      </a>
+      <a class="contact-card" href="assets/Sadman_Sakib_CV.pdf">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8zm-1 7V3.5L18.5 9zM8 13h8v2H8zm0 4h8v2H8z"/></svg>
+        <span><strong>Curriculum Vitae</strong></span>
+      </a>
+      <a class="contact-card" href="https://github.com/sadman15019">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-3.2 19.5c.5.1.7-.2.7-.5v-1.7c-2.8.6-3.4-1.3-3.4-1.3-.5-1.2-1.1-1.5-1.1-1.5-.9-.6.1-.6.1-.6 1 .1 1.5 1 1.5 1 .9 1.5 2.4 1.1 2.9.8.1-.7.4-1.1.6-1.3-2.2-.3-4.6-1.1-4.6-5 0-1.1.4-2 1-2.7-.1-.3-.4-1.3.1-2.7 0 0 .8-.3 2.8 1a9.6 9.6 0 0 1 5 0c1.9-1.3 2.8-1 2.8-1 .5 1.4.2 2.4.1 2.7.6.7 1 1.6 1 2.7 0 3.9-2.3 4.7-4.6 4.9.4.3.7.9.7 1.9V21c0 .3.2.6.7.5A10 10 0 0 0 12 2z"/></svg>
+        <span><strong>GitHub</strong></span>
+      </a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <p>© <span id="year">2026</span> Sadman Sakib</p>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+
+  document.getElementById('themeToggle').addEventListener('click', function () {
+    var root = document.documentElement;
+    var cur = root.getAttribute('data-theme') ||
+      (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+    var next = cur === 'dark' ? 'light' : 'dark';
+    root.setAttribute('data-theme', next);
+    try { localStorage.setItem('theme', next); } catch (e) {}
+  });
+
+  // Highlight the nav link for the section in view
+  var links = document.querySelectorAll('.nav a');
+  var obs = new IntersectionObserver(function (entries) {
+    entries.forEach(function (en) {
+      if (en.isIntersecting) {
+        links.forEach(function (a) {
+          a.classList.toggle('active', a.getAttribute('href') === '#' + en.target.id);
+        });
+      }
+    });
+  }, { rootMargin: '-45% 0px -50% 0px' });
+  document.querySelectorAll('main section[id]').forEach(function (s) { obs.observe(s); });
+</script>
+</body>
+</html>
