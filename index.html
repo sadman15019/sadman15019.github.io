@@ -64,7 +64,8 @@
         a unified vision platform for recognizing objects, currency, and faces, and a smartphone app that
         estimates blood glucose and hemoglobin non-invasively from fingertip video. All three were published at IEEE conferences.
         At BRAC University I'm now working on <em>AI-assisted video creation for people who stutter</em> and
-        <em>long-video understanding with vision-language models</em>.
+        <em>long-video understanding with vision-language models</em>, and I recently built a
+        <em>GNN–BERT model that fuses audio graphs and text for music understanding</em>.
       </p>
       <p>
         I spent two years as a software engineer in fintech, working on the backend of
@@ -115,9 +116,11 @@
         <!-- <p class="authors"><strong>Sadman Sakib</strong>, Co-author, …</p> -->
         <p class="venue">13th International Conference on Electrical and Computer Engineering (ICECE), 2024</p>
         <p>A portable embedded smart-spectacle system that gives visually impaired people mobility and reading support. It handles real-time
-          obstacle avoidance, detects falls and alerts caregivers automatically, and reads text aloud through an OCR pipeline with image preprocessing and text-to-speech.</p>
+          obstacle avoidance, detects falls and alerts caregivers automatically, and reads text aloud through an OCR pipeline with image preprocessing and text-to-speech.
+          The OCR pipeline achieves a 6.97% character error rate and a 9.46% word error rate.</p>
         <div class="tags"><span>Accessibility</span><span>Assistive Tech</span><span>Computer Vision</span><span>OCR</span></div>
         <a class="pub-link" href="https://ieeexplore.ieee.org/abstract/document/11024586">IEEE Xplore ↗</a>
+        <a class="pub-link" href="https://github.com/sadman15019/Assistive-Device-for-the-Visually-Impaired-for-Enhanced-Navigation-and-Reading">GitHub ↗</a>
       </div>
     </article>
 
@@ -129,9 +132,11 @@
         <p class="venue">27th International Conference on Computer and Information Technology (ICCIT), 2024</p>
         <p>A single automated assistive platform that combines object detection, currency recognition, and face recognition.
           It uses YOLOv5 for detection and ResNet-50 for classification, trained on curated datasets, with separate modules that
-          support navigation, financial transactions, and social interaction.</p>
+          support navigation, financial transactions, and social interaction. The detector reaches 98.2% mAP, and currency
+          classification reaches 99.7% top-1 accuracy.</p>
         <div class="tags"><span>Accessibility</span><span>Object Detection</span><span>YOLOv5</span><span>ResNet-50</span></div>
         <a class="pub-link" href="https://ieeexplore.ieee.org/abstract/document/11022362">IEEE Xplore ↗</a>
+        <a class="pub-link" href="https://github.com/humairaneha/Automated-object-identification-for-visually-impaired">GitHub ↗</a>
       </div>
     </article>
 
@@ -184,25 +189,19 @@
     <h2 class="section-title">Industry Experience</h2>
     <div class="timeline-item">
       <div class="tl-head">
-        <h3>Graduate Engineer, <span class="org">Kona Software Lab Ltd.</span></h3>
+        <h3>Software Engineer, <span class="org">Kona Software Lab Ltd.</span></h3>
         <span class="date">Aug 2024 – Aug 2026</span>
       </div>
       <p class="muted">Fintech · Backend engineering for national-scale payment systems</p>
 
       <div class="subproject">
         <h4>Nagad: Mobile Financial Service</h4>
-        <p>Worked on the backend of one of Bangladesh's leading mobile financial services, which runs on a microservice architecture.
-          Built customer-facing and admin-portal features including transaction processing, bulk disbursement,
-          Mastercard Payment Gateway Services (MPGS), NPSB, and Bangla QR integrations. Worked closely with the client team and
-          cross-functional stakeholders on requirements analysis, system design, and performance testing.</p>
+        <p>Developed backend services for digital payment and mobile financial service platforms on a microservices architecture.
+          Implemented core wallet transaction flows and bulk disbursement services handling high-volume financial transactions,
+          and integrated external payment networks: Mastercard Payment Gateway Services (MPGS) for card transactions, NPSB for
+          interbank transfers, and Bangla QR for interoperable merchant payments. Designed system solutions with client teams and
+          cross-functional stakeholders, from requirements analysis to delivery.</p>
         <div class="tags"><span>Java</span><span>Spring Boot</span><span>Oracle</span><span>Redis</span><span>Kafka</span><span>RabbitMQ</span></div>
-      </div>
-
-      <div class="subproject">
-        <h4>Kona Subscription Hub</h4>
-        <p>Designed and built a subscription management platform for subscription lifecycles, service activation
-          and deactivation, service-provider onboarding, automated reminders, and recurring-billing workflows.</p>
-        <div class="tags"><span>Java</span><span>Spring Boot</span><span>PostgreSQL</span><span>Redis</span><span>Kafka</span></div>
       </div>
     </div>
   </section>
@@ -247,7 +246,7 @@
     <div class="timeline-item">
       <div class="tl-head">
         <h3>M.Sc. in Computer Science and Engineering</h3>
-        <span class="date">2026 – Present</span>
+        <span class="date">Jan. 2026 – June 2027 (Exp.)</span>
       </div>
       <p class="org">BRAC University, Dhaka</p>
       <p class="muted">CGPA: <strong>4.00 / 4.00</strong> (12 credits completed)</p>
@@ -255,10 +254,11 @@
     <div class="timeline-item">
       <div class="tl-head">
         <h3>B.Sc. in Computer Science and Engineering</h3>
-        <span class="date">2019 – 2024</span>
+        <span class="date">Feb. 2019 – March 2024</span>
       </div>
       <p class="org">Khulna University of Engineering &amp; Technology (KUET)</p>
-      <p class="muted">CGPA: <strong>3.73 / 4.00</strong> · Dean's Award (2nd, 3rd &amp; 4th year)</p>
+      <p class="muted">Thesis: An Assistive Device for the Visually Impaired for Enhanced Navigation and Reading</p>
+      <p class="muted">CGPA: <strong>3.73 / 4.00</strong> · Dean's Award (academic years 2019–20, 2020–21 &amp; 2021–22)</p>
     </div>
   </section>
 
@@ -274,24 +274,29 @@
        To show a grade, add: <span class="grade">A+</span> inside the <li>. -->
   <section id="courses">
     <h2 class="section-title">Major Coursework</h2>
-    <div class="course-grid course-grid-2">
+    <div class="course-grid">
       <div class="course-group">
-        <h3>M.Sc. · BRAC University</h3>
         <ul>
-          <li>Advanced Natural Language Processing</li>
-          <li>Deep Learning for Computer Vision</li>
+          <li>Artificial Intelligence</li>
           <li>Neural Networks and Fuzzy Systems</li>
-          <li>Fairness, Ethics and Explainability in AI</li>
+          <li>Deep Learning for Computer Vision</li>
+          <li>Natural Language Processing</li>
         </ul>
       </div>
       <div class="course-group">
-        <h3>B.Sc. · KUET</h3>
         <ul>
-          <li>Artificial Intelligence</li>
-          <li>Natural Language Processing</li>
-          <li>Image Processing and Computer Vision</li>
+          <li>Research Methodology (HCI focused)</li>
+          <li>Fairness, Ethics and Explainability in AI</li>
+          <li>Image Processing</li>
+          <li>Embedded Systems</li>
+        </ul>
+      </div>
+      <div class="course-group">
+        <ul>
           <li>Data Mining</li>
           <li>Applied Statistics</li>
+          <li>Mobile Computing</li>
+          <li>Computer and Network Security</li>
         </ul>
       </div>
     </div>
@@ -304,8 +309,16 @@
       <a class="card card-link" href="https://github.com/sadman15019/A-Training-Free-Approach-for-Long-Video-Understanding">
         <span class="card-kicker">Computer Vision · VLMs</span>
         <h3>Query-Guided Grid Composition for Long Video Understanding</h3>
-        <p>Training-free, query-aware frame composition method that improves long-video understanding and question answering in VLMs.</p>
+        <p>Training-free, query-aware frame composition method that improves long-video understanding and question answering in VLMs.
+          With Qwen2.5-VL-7B, it improves MF2 pair accuracy from 16.9% to 23.5%.</p>
         <span class="stack">Python · PyTorch · VLMs</span>
+      </a>
+      <a class="card card-link" href="https://github.com/humairaneha/gnn-bert-music-context">
+        <span class="card-kicker">NLP · Graph Neural Networks</span>
+        <h3>GNN-BERT for Music Context Understanding</h3>
+        <p>Fine-tuned BERT for music tagging, modeled music as graphs of audio segments with GraphSAGE, fused audio and text
+          with cross-attention for genre and mood prediction, and aligned audio and captions with contrastive learning.</p>
+        <span class="stack">PyTorch · PyTorch Geometric · BERT</span>
       </a>
       <a class="card card-link" href="https://github.com/Bokhtiar-Adil/Vikings-chess-Hnefatafl">
         <span class="card-kicker">Game AI</span>
@@ -333,18 +346,23 @@
     <div>
       <h2 class="section-title">Technical Skills</h2>
       <dl class="skills">
-        <dt>Languages</dt><dd>Python, C, C++, Java</dd>
-        <dt>ML &amp; Vision</dt><dd>PyTorch, Hugging Face, OpenCV, NumPy, Pandas</dd>
+        <dt>Programming Languages</dt><dd>Python, C, C++, Java</dd>
+        <dt>Machine Learning</dt><dd>PyTorch, Hugging Face, NumPy, Pandas</dd>
+        <dt>Computer Vision</dt><dd>OpenCV, YOLO, Tesseract OCR, CLIP</dd>
+        <dt>Developer Tools</dt><dd>Anaconda, Jupyter, Raspberry Pi, Git, VS Code, IntelliJ IDEA, Postman</dd>
+        <dt>Mobile Apps Development</dt><dd>Kotlin, Android Studio</dd>
         <dt>Backend</dt><dd>Spring Boot, Kafka, RabbitMQ</dd>
-        <dt>Databases</dt><dd>PostgreSQL, MySQL, Oracle, Redis</dd>
-        <dt>Tools</dt><dd>Git, LaTeX, Jira, Confluence</dd>
-        <dt>AI Tools</dt><dd>Claude, Cursor</dd>
+        <dt>Database</dt><dd>MySQL, Oracle, Firebase, Redis</dd>
+        <dt>Operating System</dt><dd>Linux, Windows</dd>
+        <dt>Industry Expertise</dt><dd>Microservices Architecture, Fintech Platforms, Digital Payment Systems</dd>
+        <dt>Research Aptitude</dt><dd>Human-Computer Interaction, Accessibility and Assistive Technology, Computer Vision</dd>
+        <dt>Adaptive Skills</dt><dd>Adaptability, Analytical Thinking, Clear Technical Communication, Complex Problem Solving, Cross-Functional Collaboration, Independent Learning</dd>
       </dl>
     </div>
     <div>
       <h2 class="section-title">Honors &amp; Activities</h2>
       <ul class="plain">
-        <li><strong>Dean's Award</strong> for excellent academic performance, KUET: 2nd, 3rd &amp; 4th year</li>
+        <li><strong>Dean's Award</strong> for excellent academic performance, KUET: academic years 2019–20, 2020–21 &amp; 2021–22</li>
         <li><strong>Codeforces Specialist</strong>: max rating 1442 (<a href="https://codeforces.com/profile/sadman15019">sadman15019</a>)</li>
         <li><strong>Competitive programming</strong>: 1100+ problems solved and SGIPC Workshop Manager (<a href="#programming">details</a>)</li>
       </ul>
@@ -355,7 +373,7 @@
   <section id="contact">
     <h2 class="section-title">Contact</h2>
     <div class="contact-grid">
-      <a class="contact-card" href="mailto:sadmansakib14563@gmail.com">
+      <a class="contact-card" href="mailto:sadman.sakib.grad@gmail.com">
         <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 4.2-8 5-8-5V6l8 5 8-5z"/></svg>
         <span><strong>Email</strong></span>
       </a>

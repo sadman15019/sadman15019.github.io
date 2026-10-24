@@ -196,7 +196,7 @@ section { padding: 44px 0 8px; }
 
 /* ---------- Skills / honors ---------- */
 .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; }
-.skills { display: grid; grid-template-columns: 120px 1fr; gap: 8px 14px; margin: 0; font-size: .94rem; }
+.skills { display: grid; grid-template-columns: 165px 1fr; gap: 8px 14px; margin: 0; font-size: .94rem; }
 .skills dt { font-weight: 600; }
 .skills dd { margin: 0; color: var(--muted); }
 .plain { margin: 0; padding-left: 18px; font-size: .94rem; }
